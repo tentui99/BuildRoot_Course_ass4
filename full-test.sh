@@ -21,6 +21,7 @@ echo "Running test with user $(whoami)"
 set +e
 # remove  rm -f /var/tmp/aesdsocketdata.txt
  rm -f /var/tmp/aesdsocketdata.txt
+ echo "Đã xoá /var/tmp/aesdsocketdata.txt"
 # If there's a configuration for the assignment number, use this to look for
 # additional tests
 if [ -f conf/assignment.txt ]; then
